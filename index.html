@@ -1,9 +1,89 @@
 <!DOCTYPE html>
 <html>
     <head>
-
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://kit.fontawesome.com/c115c4d63d.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        
+        <header>
+            <a href="https://github.com/"><i class="fa-brands fa-github"></i></a>
+            <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+        </header>
+        <nav>
+            <h1>Ing en Sistemas de Información</h1>
+            <h2>Lirael Montserrat</h2>
+            <img src="img/foto_perfil_d.png" alt="foto modo oscuro">
+            <p>
+                Apasionada por la tecnología y la innovación, con una mente analítica y creativa. Me especializo en desarrollar soluciones eficientes y escalables para la gestión de datos y sistemas. 
+                Mi enfoque práctico y detallista me ha llevado a liderar proyectos que optimizan la infraestructura tecnológica de diversas empresas, siempre con la visión de mejorar la experiencia 
+                del usuario. Soy conocida por mi capacidad para resolver problemas complejos y por mi constante interés en aprender nuevas herramientas y tendencias en el mundo digital.
+            </p> 
+        </nav>
+        <article>
+            <section class="habilidades">
+                <ul>
+                    <li>Manejo avanzado de Phyton, C++ y SQL</li>
+                    <li>Análisis de datos con Excel, Power BI y Phyton</li>
+                    <li>Gestión de proyectos con SCRUM y Kanban</li>
+                    <li>Desarrollo de interfaces de usuario</li>
+                    <li>Testing y control de calidad</li>
+                    <li>Conocimientos en Ciberseguridad</li>
+                </ul>
+            </section>
+            <section class="proyectos">
+                <ul>
+                    <li>
+                        Desarrollo de una plataforma de e-commerce personalizada: participación 
+                        en el diseño y desarrollo de la plataforma. Liderando la integración de sistemas
+                        de pago, gestión d einventarios y análisis de datos.
+                    </li>
+                    <li>
+                        Implementación de un sistema de gestión de datos en la nube: trabaje en la migración 
+                        de la infraestructura de TI de la empresa a la nube, creando una solución escalable 
+                        y segura para gestionar la información.
+                    </li>
+                    <li>
+                        Desarrollo de una aplicación de análisis predictiva para la optimización de la cadena
+                        de suministro: diseñe una aplicación basada en inteligencia artificial y análisis predictivo
+                        para prever y optimizar la demanda de productos.
+                    </li>
+                </ul>
+            </section>
+        </article>
+        <aside>
+            <ol>
+                <li>
+                    IBM: participando en el desarrollo de soluciones en la nube, inteligencia artificial y 
+                    consultoría tecnológica para empresas.
+                </li>
+                <li>
+                    Accenture: parte del equipo que brinda asesoramiento y soluciones 
+                    tecnológicas a empresas de diversos sectores.
+                </li>
+            </ol>
+        </aside>
+        <footer>
+            <form method="post" action="">
+                <label for="nombre">Nombre: </label>
+                <input name="nombre" id="nombre" placeholder="Pablo" required> 
+                
+                <label for="apellido">Apellido: </label>
+                <input name="apellido" id="apellido" placeholder="Abratte" required>
+                
+                <label for="mensaje">Mensaje: </label>
+                <input name="mensaje" id="mensaje" placeholder="Me quiero comunicar con usted..." required> 
+
+                <label for="contacto">Contacto: </label>
+                <input name="contacto" id="contacto" type="email" placeholder="pabratte@gmail.com" required> 
+
+                <input type="submit" value="Enviar datos">
+            </form>
+        </footer>
     </body>
 </html>
