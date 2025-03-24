@@ -1,120 +1,96 @@
-body {
-  font-family: "Roboto", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
+#body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
   font-style: normal;
-  font-variation-settings:
-  "wdth" 100;
-  background-color: #7F7F7F;
+  background-color: #17153b;
   margin:0px;
-  padding:0px;
+  padding: 0px;
 }
-h1{
-  text-align: left;
-}
-h2{
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  
-}
+
 header{
-  display: flex;
-  background-color: #3B3B3B;
-  justify-content: center;
-}
-
-a{
-  margin:10px;
-  padding: 10px;
-  text-decoration: none;
-  color:#b1b0b0;
-}
-
-nav{
-  display: flex;
-  justify-content: space-evenly;
+  background-color: #17153b;
   
 }
-.img{
-  min-width: 25%; 
+i{
+  padding: 20px;
+  text-decoration: none;
+  color: #C8ACD6;
 }
-.titulo{
-  display: flex;
-  flex-direction: column;
-  justify-items: center;
-  justify-content: center;
-  align-items: flex-start;
+nav{
+  background-color:#433d8b ;
+  color:#ffff;
+  padding: 20px;
 }
 .descripcion{
-  display: flex;
-  background-color: #b1b0b0;
-  justify-content:center;
-  padding: 10px;
-  margin:10px;
-  border-radius: 10px;
-  text-align: justify;
+  margin-top:0px;
+  background-color:#6f6a9f;
 }
-
-.texto{
+p{
+  color:#000000;
+  padding:15px;
+  border-radius: 10px;
+}
+li{
+  list-style: none;
+}
+.habilidades h1{
   display: flex;
-  flex-direction: row;
   justify-content: center;
+  font-size: 30px;
+  padding: 5px;
+  margin:30px;
+  color:#ffff;
+}
+.habilidades ul li{
   margin:5px;
+  margin-bottom: 15px;
+  border: 2px solid #ffff;
+  color:#ffff;
   padding: 10px;
 }
-.columna{
+
+.experiencia h1{
   display: flex;
-  flex-direction: column;
-  width: 50%;
+  justify-content: center;
+  font-size: 30px;
+  padding:15px;
+  margin:10px;
+  color:#ffff;
 }
-.list{
-  margin:5px;
-  padding:5px;
-  margin-left: 0px;
-  padding-left: 0px;
-}
-ul{
-  list-style-type: none;
-  padding:0px;
-}
-.titulo_hab{
-  font-size: 20px;
-}
-
-
-.proyectos{
-  display:flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-.item{
-  max-width: 25%;
-  background-color: #a79999;
-  border-radius: 10px;
+.experiencia{
+  background-color: #433d8b;
   padding:10px;
 }
-
-form{
-  display: flex;
-  flex-direction: column;
-  width: 50%;
-  background-color: #d2d2d2;
-  border-radius: 3px;
+.experiencia ul li{
+  color:#ffff;
+  padding:10px;
   margin:10px;
-  padding: 10px;
 }
-.form1{
+
+.proyectos h1{
   display: flex;
   justify-content: center;
-  flex-direction: row;
+  font-size: 30px;
+  padding:15px;
+  margin:20px;
+  color:#ffff;
 }
+
+.proyectos ul li{
+  color:#ffff;
+  padding:10px;
+  margin:10px;
+  border: 2px solid #ffff;
+}
+.formulario{
+  margin:40px;
+  background-color: #897394;
+  border-radius: 10px;
+}
+
 footer{
-  display: flex;
-  justify-content: center;
-}
-input{
-  margin:5px;
-}
-label{
-  margin:5px;
+  background-color: #6f6a9f;
+  color:#ffff;
+  font-size: 10px;
+  margin:0px;
 }
