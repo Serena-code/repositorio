@@ -1,0 +1,99 @@
+#body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    background-color: #adb2d4;
+    margin:0px;
+    padding: 0px;
+  }
+  
+  header{
+    background-color: #6fbdcf;
+    
+  }
+  i{
+    padding: 20px;
+    text-decoration: none;
+    color: #204c56;
+  }
+  nav{
+    background-color: #bcbed1;
+    color:#000000;
+    padding: 20px;
+  }
+  .descripcion{
+    margin-top:0px;
+    background-color:#4791a2;
+  }
+  p{
+    color:#000000;
+    padding:15px;
+    border-radius: 10px;
+  }
+  li{
+    list-style: none;
+  }
+  .habilidades h1{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    padding: 5px;
+    margin:30px;
+    color:#000000;
+  }
+  .habilidades ul li{
+    margin:5px;
+    margin-bottom: 15px;
+    border: 2px solid #000000;
+    color:#000000;
+    padding: 10px;
+  }
+  
+  .experiencia h1{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    padding:15px;
+    margin:10px;
+    color:#000000;
+  }
+  .experiencia{
+    background-color: #596193;
+    padding:10px;
+  }
+  .experiencia ul li{
+    color:#000000;
+    padding:10px;
+    margin:10px;
+  }
+  
+  .proyectos h1{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    padding:15px;
+    margin:20px;
+    color:#000000;
+  }
+  
+  .proyectos ul li{
+    color:#000000;
+    padding:10px;
+    margin:10px;
+    border: 2px solid #000000;
+  }
+  .formulario{
+    margin:40px;
+    background-color: #c7d9dd;
+    border-radius: 10px;
+  }
+  .formulario label{
+    padding: 10px;
+  }
+  footer{
+    background-color: #edcdec;
+    color:#000000;
+    font-size: 10px;
+    margin:0px;
+    padding: 0px;
+  }

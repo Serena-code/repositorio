@@ -87,10 +87,13 @@ li{
   background-color: #897394;
   border-radius: 10px;
 }
-
+.formulario label{
+  padding: 10px;
+}
 footer{
   background-color: #6f6a9f;
   color:#ffff;
   font-size: 10px;
   margin:0px;
+  padding: 0px;
 }
