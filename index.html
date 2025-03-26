@@ -20,6 +20,7 @@
                     <a class="col md-3" href="https://linkedin.com/"><i class="bi bi-linkedin"></i></a>
                     <a class="col md-3" href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a>
                     <a class="col md-3" href="index2.html"><i class="bi bi-moon"></i></a>
+                    
                 </div>
             </div>
         </header>
@@ -50,7 +51,7 @@
         
         <article class="habilidades">
             <h1>Habilidades</h1>
-            <section class="container m-3">
+            <section class="container">
                 <ul class="row">
                     <li class="col md-4">Manejo avanzado de Phyton, C++ y SQL.</li>
                     <li class="col md-4">Análisis de datos con Excel, Power BI y Python.</li>
@@ -96,40 +97,43 @@
                 </ul>
             </section>
         </article>
-       
+        
         <article>
             <section class="formulario">
-                <form method="post" action="" class="container">
+                <form method="POST" name="submit-form" action="" class="container">
                     <div class="row">
                         <div class="col md-6 m-3 d-flex justify-content-center">
                             <label for="nombre">Nombre: </label>
-                            <input name="nombre" id="nombre" placeholder="Pablo" required> 
+                            <input name="nombre" type="text" placeholder="Pablo" required> 
                         </div>
                         <div class="col md-6 m-3 d-flex justify-content-center">
                             <label for="apellido">Apellido: </label>
-                            <input name="apellido" id="apellido" placeholder="Abratte" required>
+                            <input name="apellido" type="text" placeholder="Abratte" required>
                         </div>     
                         
                     </div>
                     <div class="row">
                         <div class="col md-6 m-3 d-flex justify-content-center"> 
                             <label for="mensaje">Mensaje: </label>
-                            <input name="mensaje" id="mensaje" placeholder="Me quiero comunicar..." required> 
+                            <input name="mensaje" type="text" placeholder="Me quiero comunicar..." required> 
                         </div>
                         <div class="col md-6 m-3 d-flex justify-content-center"> 
-                            <label for="contacto">Contacto: </label>
-                            <input name="contacto" id="contacto" type="email" placeholder="pabratte@gmail.com" required> 
+                            <label for="email">Email: </label>
+                            <input name="email" type="email" placeholder="pabratte@gmail.com" required> 
                         </div>
                     </div> 
                     
                     <div class="row">
                         <div class="col md-12 m-3 d-flex justify-content-center"> 
-                            <input class="enviar" type="submit" value="Enviar datos">
+                            <button class="Enviar" type="submit">Enviar</button>
                         </div>
                     </div>
                 </form>
+                <script src="js/google_sheet.js"></script>
             </section>
+            
         </article>
+        
         <footer>
             <div class="container">
                 <div class="row d-flex justify-content-between">
