@@ -82,6 +82,7 @@ li{
   margin:10px;
   border: 2px solid #ffff;
 }
+
 .formulario{
   margin:40px;
   background-color: #897394;
@@ -93,6 +94,7 @@ li{
 .enviar:hover{
   background-color: #433d8b;
 }
+
 footer{
   background-color: #6f6a9f;
   color:#ffff;
